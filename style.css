@@ -1,0 +1,64 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.contenitore {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 70px;
+  line-height: 16px;
+}
+
+main {
+  color: white;
+}
+
+header>img {
+  width: 200px;
+}
+
+header, nav {
+  text-align: center;
+}
+
+h1 {
+  color: #00DD00;
+}
+
+nav {
+  background-color: #00DD00;
+  line-height: 300%;
+}
+
+section h3 {
+  display: inline-block;
+  line-height: 0.2;
+}
+
+.orange-stripe {
+  width: 280px;
+  background-color: #F4B453;
+}
+
+.green-stripe {
+  width: 450px;
+  background-color: #1EC31E;
+}
+
+.pink-stripe {
+  width: 120px;
+  background-color: #BE4041;
+}
+
+section div:last-child {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.indirizzo:before {
+  content: "\21A6";
+}
